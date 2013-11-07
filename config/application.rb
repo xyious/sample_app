@@ -55,5 +55,8 @@ module SampleApp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    #precompile shit I guess .... 
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
